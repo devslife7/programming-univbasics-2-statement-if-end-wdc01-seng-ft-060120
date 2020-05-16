@@ -2,9 +2,9 @@
 
 run_code_inside = true
 
-if run_code_inside
-  puts "Code before if...end"
+if ((Time.now % 2) = 0)
+  puts "Even!"
+else
+  puts "Odd!"
 end
-
-puts "Code after if...end"
 
